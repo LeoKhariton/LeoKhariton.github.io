@@ -1,3 +1,35 @@
 img {
     max-width: 100%;
 }
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    background-color: indigo;
+    color: #ebebeb;
+    font-size: 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.proekts {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+footer {
+    align-self: bottom;
+}
+
+.listItem {
+    color: #ebebeb;
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
