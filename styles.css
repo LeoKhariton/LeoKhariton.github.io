@@ -2,6 +2,15 @@ img {
     max-width: 100%;
 }
 
+header {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    color: indigo;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
 }
