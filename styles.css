@@ -5,6 +5,9 @@ img {
 header {
     background-color: aliceblue;
 }
+.links {
+    text-align: center;
+}
 
 h1 {
     text-align: center;
@@ -20,9 +23,10 @@ nav {
     color: #ebebeb;
     font-size: 1rem;
     min-height: 2.75rem;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     padding: 0 1rem;
+    text-align: center;
 }
 
 .proekts {
