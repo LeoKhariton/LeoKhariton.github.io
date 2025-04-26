@@ -10,17 +10,6 @@ header {
     padding: 1rem;
 }
 
-/*nav {
-    background-color: indigo;
-    color: #ebebeb;
-    font-size: 1rem;
-    min-height: 2.75rem;
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
-    text-align: center;
-}*/
-
 nav ul {
     list-style: none;
     padding: 0;
