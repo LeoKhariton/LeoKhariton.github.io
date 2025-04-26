@@ -1,10 +1,53 @@
+body {
+    font-family: 'Oswald', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+/*nav {
+    background-color: indigo;
+    color: #ebebeb;
+    font-size: 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: center;
+}*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hero, .about, .projects, .contact {
+    margin-bottom: 2rem;
+}
+
 img {
     max-width: 100%;
 }
 
-header {
-    background-color: aliceblue;
-}
 .links {
     text-align: center;
 }
@@ -12,21 +55,6 @@ header {
 h1 {
     text-align: center;
     color: indigo;
-}
-
-body {
-    font-family: 'Oswald', sans-serif;
-}
-
-nav {
-    background-color: indigo;
-    color: #ebebeb;
-    font-size: 1rem;
-    min-height: 2.75rem;
-    /*display: flex;*/
-    align-items: center;
-    padding: 0 1rem;
-    text-align: center;
 }
 
 .proekts {
@@ -37,7 +65,13 @@ nav {
 }
 
 footer {
-    align-self: bottom;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .listItem {
