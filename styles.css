@@ -76,3 +76,16 @@ footer {
     margin-right: 1rem;
     margin-left: 1rem;
 }
+
+.project-detail {
+    margin-bottom: 2rem;
+}
+
+.project-detail a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.project-detail a:hover {
+    text-decoration: underline;
+}
