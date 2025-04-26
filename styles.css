@@ -8,6 +8,7 @@ header {
     background-color: #333;
     color: white;
     padding: 1rem;
+    user-select: none;
 }
 
 nav ul {
@@ -41,10 +42,10 @@ img {
     text-align: center;
 }
 
-h1 {
+/*h1 {
     text-align: center;
     color: indigo;
-}
+}*/
 
 .proekts {
     display: grid;
@@ -61,6 +62,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    user-select: none;
 }
 
 .listItem {
