@@ -89,3 +89,32 @@ footer {
 .project-detail a:hover {
     text-decoration: underline;
 }
+
+.project-description {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+.project-description h2 {
+    color: #333;
+}
+.project-description p {
+    margin-bottom: 20px;
+}
+.technologies, .results, .reviews, .screenshots, .links, .contacts {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+.technologies ul, .results ul, .reviews ul, .links ul, .contacts ul {
+    list-style: none;
+    padding: 0;
+}
+.technologies li, .results li, .reviews li, .links li, .contacts li {
+    margin-bottom: 10px;
+}
+.screenshots img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
