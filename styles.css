@@ -125,3 +125,8 @@ footer {
     margin-bottom: 1%;
     max-width: 50%;
 }
+
+.active {
+    background-color: #007BFF;
+    color: white;
+}
