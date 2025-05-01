@@ -24,11 +24,16 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
-
+nav ul li a:hover {
+    border-bottom-color: #ddd;
+    background-color: #ddd;
+}
 nav ul li a.active {
     font-weight: bold;
     text-decoration: underline;
+    border-bottom-color: blue;
 }
 
 main {

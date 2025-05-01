@@ -1,3 +1,4 @@
+// динамическая загрузка header'a и footer'a
 document.addEventListener('DOMContentLoaded', function() {
     fetch('header.html')
         .then(response => response.text())
@@ -12,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     // Получаем текущий путь страницы
     const currentPath = window.location.pathname;
 
@@ -27,4 +28,4 @@ document.addEventListener("DOMContentLoaded", function() {
             link.parentElement.classList.add('active');
         }
     });
-});
+});*/
