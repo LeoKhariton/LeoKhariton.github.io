@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 
-/*document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     // Получаем текущий путь страницы
     const currentPath = window.location.pathname;
 
@@ -28,4 +28,4 @@ document.addEventListener('DOMContentLoaded', function() {
             link.parentElement.classList.add('active');
         }
     });
-});*/
+});
