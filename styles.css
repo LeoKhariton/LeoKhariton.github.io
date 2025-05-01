@@ -25,15 +25,15 @@ nav ul li a {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    border-bottom: 2px solid transparent;
 }
 nav ul li a:hover {
-    border-bottom-color: #ddd;
-    background-color: #ddd;
+    border-bottom-color: #000000;
+    background-color: #000000;
 }
 nav ul li a.active {
     font-weight: bold;
-    text-decoration: underline;
-    border-bottom-color: blue;
+    border-bottom: 2px solid rgb(184, 184, 184);
 }
 
 main {
