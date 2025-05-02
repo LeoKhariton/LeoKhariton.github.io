@@ -1,5 +1,5 @@
 // динамическая загрузка header'a и footer'a
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
     fetch('header.html')
         .then(response => response.text())
         .then(data => {
@@ -11,9 +11,17 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             document.getElementById('footer-container').innerHTML = data;
         });
-});
+});*/
 
-document.addEventListener("DOMContentLoaded", function() {
+async function loadComponent(elementId, url) {
+    const response = await fetch(url);
+    const text = await response.text();
+    document.getElementById(elementId).innerHTML = text;
+}
+loadComponent('header', 'header.html');
+loadComponent('footer', 'footer.html');
+
+/*document.addEventListener("DOMContentLoaded", function() {
     // Получаем текущий путь страницы
     const currentPath = window.location.pathname;
 
@@ -28,4 +36,4 @@ document.addEventListener("DOMContentLoaded", function() {
             link.parentElement.classList.add('active');
         }
     });
-});
+});*/
